@@ -1,0 +1,14 @@
+.bgImg1 {
+    background-image: url(../assets/Group\ 8MentuTopBAr.png);
+    height: 360px;
+}
+
+.bgImg2 {
+    background-image: url(../assets/MenuBtmBarHere.png);
+    height: 322px;
+}
+
+.fS {
+    font-size: 50px;
+    color: #790041;
+}
