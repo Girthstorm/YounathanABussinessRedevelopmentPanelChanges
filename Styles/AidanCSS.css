@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 500px;
+    height: 1349px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -12,15 +12,27 @@
 }
 
 .hero-text {
-    
-    
+    font-family: 'Knewave', system-ui;
     position: absolute;
-
-    color: white;
+    color: #FF73BE;
     background-color: rgba(236, 236, 236, 0.88);
-    
+    max-width: 1244px;
+    padding: 70px;
 }
 
 .hero-text h1 {
     font-size: 200px;
+    text-align: center;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: black;
 }
+
+.hero-text p {
+    font-size: 80px;
+}
+
+.toMap {
+    text-decoration: none;
+    color: #FF73BE;
+}
+
