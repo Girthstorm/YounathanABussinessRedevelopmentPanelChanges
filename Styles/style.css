@@ -1,5 +1,9 @@
+body{
+    overflow-x: hidden;
+}
 .nav-design{
     background-color: #FFCEDA;
+    display: flex;
 }
 
 .navbar-tabs{
@@ -19,12 +23,12 @@
 }
 
 .sprankles{
-    width: 50%;
+    width: 60%;
 }
 
 .sprinkles-div{
     display: flex;
-    justify-self: baseline;
+    justify-content: baseline;
 }
 
 .hero-text{
@@ -42,8 +46,24 @@
     -webkit-text-stroke: 2px #731A1A;
 }
 
+.toggler{
+    border-width: 0px;
+    color: transparent;
+}
+
 .image-section{
     padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-changes{
+    border-width: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .caption{
@@ -56,7 +76,7 @@
     background-color: #FFCEDA;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .caption-design-1{
@@ -70,6 +90,10 @@
     color: white;
     -webkit-text-stroke: 2px #FF85C6;
     font-size: 60px;
+}
+
+.space{
+    margin-top: 60px;
 }
 
 @font-face {
