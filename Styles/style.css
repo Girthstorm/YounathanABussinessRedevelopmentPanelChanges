@@ -1,0 +1,117 @@
+body{
+    overflow-x: hidden;
+}
+.nav-design{
+    background-color: #FFCEDA;
+    display: flex;
+}
+
+.navbar-tabs{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.individual-tab{
+    padding-right: 20px;
+    padding-left: 40px;
+    width: 150px;
+    font-family: kreon;
+}
+
+.logo{
+    width: 20%;
+    z-index: 4;
+}
+
+.sprinkles-div{
+    position: absolute;
+    top: 80px; left: 200px;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.hero-header{
+    font-family: knewave;
+    -webkit-text-stroke: 2px #731A1A;
+}
+
+.toggler{
+    border-width: 0px;
+    color: transparent;
+    z-index: 4;
+}
+
+.image-section{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-changes{
+    border-width: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment{
+    background-color: #FFCEDA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.caption-design-1{
+    font-family: knewave;
+    color: #FF73BE;
+    font-size: 60px;
+}
+
+.caption-design-2{
+    font-family: knewave;
+    color: white;
+    -webkit-text-stroke: 2px #FF85C6;
+    font-size: 60px;
+}
+
+.space{
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-tabs{
+        display: flex;
+        justify-content: center;
+    }
+    .sprinkles-div{
+        position: absolute;
+        top: 60px; left: 0px;
+        z-index: 0;
+    }
+}
+
+@font-face {
+    font-family: kreon;
+    src: url(../assets/Kreon-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: knewave;
+    src: url(../assets/Knewave-Regular.ttf);
+}
