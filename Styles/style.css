@@ -141,6 +141,11 @@ body{
         top: 75px; left: 0px;
         z-index: 0;
     }
+    .hero-header-2{
+        font-family: knewave;
+        font-size: 30px;
+        -webkit-text-stroke: 2px #731A1A;
+    }
 }
 
 .visit {
