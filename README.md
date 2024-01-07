@@ -14,4 +14,6 @@ Im not sure if the nav bar is messed up but the text "Menu" and "Visit Us" look 
 
 Due to Aidan not being home and unable to add collaborators we had to just copy and paste his review instead of Jeriah uploading it
 
-Aidan: Yah sorry my bad I got multiple unskipable side quests from my father
+Aidan: Yah sorry my bad I got multiple unskipable side quests from my father. Plus I just added Jeriah
+
+Vercel: https://younathan-a-bussiness-redevelopment-panel-changes.vercel.app/#menu
