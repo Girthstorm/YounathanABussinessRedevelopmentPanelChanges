@@ -13,3 +13,5 @@ The Mobil looks great and the nav bar being a donuts is awesome, it looks like t
 Im not sure if the nav bar is messed up but the text "Menu" and "Visit Us" look like they dont do anything like take you to that part of the page when it seems thats what they should be doing other than that looks and works great and i want a bacon bar
 
 Due to Aidan not being home and unable to add collaborators we had to just copy and paste his review instead of Jeriah uploading it
+
+Aidan: Yah sorry my bad I got multiple unskipable side quests from my father
