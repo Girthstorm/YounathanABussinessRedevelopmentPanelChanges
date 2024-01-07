@@ -80,18 +80,54 @@ body{
 .caption-design-1{
     font-family: knewave;
     color: #FF73BE;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .caption-design-2{
     font-family: knewave;
     color: white;
     -webkit-text-stroke: 2px #FF85C6;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .space{
     margin-top: 60px;
+}
+
+.fS1 {
+    font-size: 50px;
+    color: #790041;
+    font-family: 'Knewave', system-ui;
+}
+
+.fS2 {
+    font-size: 40px;
+    color: #790041;
+    font-family: 'Kreon', serif;
+}
+
+.fS3 {
+    font-size: 37.5px;
+    color: #790041;
+    font-family: 'Knewave', system-ui;
+}
+
+.fS4 {
+    font-size: 37.5px;
+    color: #790041;
+    font-family: 'Kreon', serif;
+}
+
+.fS5 {
+    font-size: 25px;
+    color: #790041;
+    font-family: 'Knewave', system-ui;
+}
+
+.fS6 {
+    font-size: 25px;
+    color: #790041;
+    font-family: 'Kreon', serif;
 }
 
 @media screen and (max-width: 1000px) {
