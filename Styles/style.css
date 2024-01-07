@@ -14,7 +14,7 @@ body{
 .individual-tab{
     padding-right: 20px;
     padding-left: 40px;
-    width: 150px;
+    width: 200px;
     font-family: kreon;
 }
 
@@ -25,10 +25,10 @@ body{
 
 .sprinkles-div{
     position: absolute;
-    top: 80px; left: 200px;
+    top: 100px; left: 400px;
 }
 
-.hero-text{
+.hero-text-2{
     text-align: center;
     position: absolute;
     top: 50%;
@@ -38,8 +38,9 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.hero-header{
+.hero-header-2{
     font-family: knewave;
+    font-size: 60px;
     -webkit-text-stroke: 2px #731A1A;
 }
 
@@ -141,6 +142,120 @@ body{
         z-index: 0;
     }
 }
+
+.visit {
+    background-image: url("/Assets/matthew-feeney-IBGqZJUDghM-unsplash\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+    max-height: 1349px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-family: 'Knewave', system-ui;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    color: #FF73BE;
+    background-color: rgba(236, 236, 236, 0.88);
+    max-width: 1244px;
+    padding: 70px;
+    border-radius: 20px;
+}
+
+.hero-text h1 {
+    font-size: 200px;
+    text-align: center;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: black;
+}
+
+.hero-text p {
+    font-size: 80px;
+}
+
+.toMap {
+    text-decoration: none;
+    color: #FF73BE;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgba(255, 206, 218, 1);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer p {
+    text-decoration: underline;
+}
+
+.socials a {
+    font-size: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.funkyFoot{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.insta {
+    margin-right: 10px;
+}
+
+@media screen and  (max-width: 430px){ 
+    .visit {
+        max-height: 700px;
+    }
+
+    .hero-text {
+        max-width: 429px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+        -webkit-text-stroke-width: 2px;
+    }
+
+    .hero-text p {
+        font-size: 25px;
+    }
+    
+    .toMap {
+        text-decoration: none;
+        color: #FF73BE;
+    }
+    
+    /* Footer */
+    
+    .footer{
+        font-size: 17px;
+    }
+    
+    .footer p {
+        text-decoration: underline;
+    }
+    
+    .socials a {
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
 
 @font-face {
     font-family: kreon;
